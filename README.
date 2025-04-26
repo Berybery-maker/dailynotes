@@ -1,0 +1,45 @@
+# Dad Jokes App 🤣
+
+Aplikasi mobile berbasis Android untuk menikmati kumpulan dark jokes dan dad jokes yang lucu, fresh, dan menghibur.  
+Project ini dikembangkan dengan pembagian tugas, dimana backend disiapkan untuk menyediakan API jokes.
+
+---
+
+## 📱 Fitur Aplikasi
+- Menampilkan dad jokes secara random.
+- Refresh untuk mendapatkan jokes baru.
+- Favorite jokes untuk disimpan.
+- Menyimpan history jokes yang sudah dilihat.
+- Membuat catatan untuk user.
+- Menampilkan quotes-quotes dari Orang-orang terkenal.
+---
+
+## ⚙️ Teknologi yang Digunakan
+- **Frontend**: Android Studio (Kotlin / Java)
+- **Backend**: REST API (Node.js / Express) — dikembangkan oleh tim backend.
+
+---
+
+## 🧩 Storyboard Aplikasi
+1. **Home Screen**:
+   - User membuka aplikasi, langsung melihat 1 jokes random dari server.
+2. **Swipe/Refresh**:
+   - User swipe down atau klik tombol untuk request jokes baru dari server.
+3. **Save Favorite**:
+   - User bisa tekan ikon hati ❤️ untuk menyimpan jokes favorit ke local storage.
+4. **History Page**:
+   - User bisa lihat daftar jokes yang pernah dibaca.
+
+---
+
+## 🛠️ Integrasi Backend
+- API yang disediakan melayani endpoint seperti:
+  - `GET /jokes/random` ➔ Mengambil jokes acak.
+  - `POST /favorites` ➔ Menyimpan jokes favorit user.
+
+
+---
+## 📋 Hasil SCRUM
+Dokumentasi pengerjaan proyek menggunakan metode SCRUM dapat dilihat di Jira berikut:
+
+👉 [ Jira Board - PM Project](https://briansembiring11-1744454109243.atlassian.net/jira/software/projects/PM/boards/1 )
